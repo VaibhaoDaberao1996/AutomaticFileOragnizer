@@ -15,11 +15,8 @@ public class Main {
 		String path = scan.nextLine();
 
 		OrganizeFile orgFile = new OrganizeFile();
-
-		List<String> names = orgFile.getName(path);
-		for (String name : names) {
-			System.out.println(name);
-		}
+		orgFile.organizeFiles(path);
+		
 
 	}
 
