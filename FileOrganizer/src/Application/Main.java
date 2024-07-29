@@ -1,6 +1,5 @@
 package Application;
 
-import java.util.List;
 import java.util.Scanner;
 
 import FileOrganize.OrganizeFile;
